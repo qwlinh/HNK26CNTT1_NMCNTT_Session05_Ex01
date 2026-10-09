@@ -9,6 +9,7 @@ Có 2 lỗi chính khiến PowerShell báo lỗi đỏ và không thực thi th�
 
 ## 1: Lỗi xử lý chuỗi có khoảng trắng (Spaces in Path).
 
+ 
  - Biểu hiện: Nam gõ lệnh mkdir Smart Farm Project và cd Smart Farm Project.
 
  - Nguyên nhân: Trong PowerShell (và hầu hết các Shell khác), khoảng trắng được hiểu là ký tự phân tách các tham số/đối số truyền vào lệnh. Do đó, PowerShell hiểu nhầm Nam muốn tạo/truy cập lần lượt 3 thư mục riêng biệt là Smart, Farm, và Project thay vì một thư mục duy nhất có tên "Smart Farm Project".
